@@ -8,11 +8,19 @@ I designed and implemented the application, covering backend architecture, REST 
 
 My primary engineering focus was building a reliable and maintainable Python backend with transactional integrity, clear separation of responsibilities, and automated verification.
 
-**Live Website:** https://olexaqua.ru
+**Live Deployment:** https://olexaqua.ru (restricted access)
+
+**Public Preview:** [Storefront Screenshots](#storefront-preview)
 
 **Development:** Independent project
 
-**Source Code:** Private. This public repository presents the project and its engineering decisions; it does not contain the application's source code.
+**Source Code:** Private. This repository provides a public overview of the application's architecture and functionality.
+
+> **Demo Access**
+>
+> The deployed storefront is currently protected by HTTP Basic Authentication. Public screenshots and technical documentation are available in this repository.
+>
+> No production credentials are included or publicly shared.
 
 ## Project Overview
 
@@ -24,17 +32,11 @@ The application combines a Django REST Framework backend with a Next.js storefro
 
 Screenshots from the deployed Olex e-commerce platform.
 
-### Homepage
+Click any image to view the full-size screenshot.
 
-![Olex Homepage](docs/screenshots/homepage.webp)
-
-### Product Catalog
-
-![Olex Product Catalog](docs/screenshots/catalog.webp)
-
-### Product Details
-
-![Olex Product Details](docs/screenshots/product.webp)
+| Homepage | Product Catalog | Product Details |
+|:---:|:---:|:---:|
+| [![Olex Homepage](docs/screenshots/homepage.webp)](docs/screenshots/homepage.webp) | [![Olex Product Catalog](docs/screenshots/catalog.webp)](docs/screenshots/catalog.webp) | [![Olex Product Details](docs/screenshots/product.webp)](docs/screenshots/product.webp) |
 
 ## Technology Stack
 
