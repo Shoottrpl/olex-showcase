@@ -20,6 +20,22 @@ Olex supports product discovery, customer authentication, shopping carts, checko
 
 The application combines a Django REST Framework backend with a Next.js storefront. Backend business operations use dedicated service layers, database transactions, and automated tests.
 
+## Storefront Preview
+
+Screenshots from the deployed Olex e-commerce platform.
+
+### Homepage
+
+![Olex Homepage](docs/screenshots/homepage.webp)
+
+### Product Catalog
+
+![Olex Product Catalog](docs/screenshots/catalog.webp)
+
+### Product Details
+
+![Olex Product Details](docs/screenshots/product.webp)
+
 ## Technology Stack
 
 | Area | Technologies |
