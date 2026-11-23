@@ -57,6 +57,8 @@ This reduces the need to expose Django Bearer authentication endpoints directly 
 
 State-changing BFF routes implement same-origin checks, and the backend maintains its own authentication and permission controls.
 
+The deployed storefront is currently protected by HTTP Basic Authentication for visitor access. This access restriction is separate from application-level JWT authentication managed by the Next.js BFF and Django backend.
+
 ## 5. Payment Integration
 
 A dedicated YooKassa gateway adapter isolates payment-provider SDK interactions from application business logic.
